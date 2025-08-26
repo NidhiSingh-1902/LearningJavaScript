@@ -1,0 +1,24 @@
+// let score = "33nidhi";
+let score = null;
+
+console.log(typeof score);
+console.log(typeof(score));
+
+let dummy = Number(score);
+console.log(dummy);
+
+// string 
+
+// let isLoogedIn = 1;
+let isLoogedIn = "n";
+console.log(isLoogedIn);
+let boolenaLoggedIn = Boolean(isLoogedIn);
+// instead of Boolean we can have Number, String
+console.log(boolenaLoggedIn);
+
+// 1 => true, = -> false
+// "" -> false
+// "hitesth" -> true
+
+
+
