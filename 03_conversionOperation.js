@@ -1,24 +1,38 @@
-// let score = "33nidhi";
-let score = null;
+// // let score = "33nidhi";
+// let score = null;
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
-let dummy = Number(score);
-console.log(dummy);
+// let dummy = Number(score);
+// console.log(dummy);
 
-// string 
+// // string 
 
-// let isLoogedIn = 1;
-let isLoogedIn = "n";
-console.log(isLoogedIn);
-let boolenaLoggedIn = Boolean(isLoogedIn);
-// instead of Boolean we can have Number, String
-console.log(boolenaLoggedIn);
+// // let isLoogedIn = 1;
+// let isLoogedIn = "n";
+// console.log(isLoogedIn);
+// let boolenaLoggedIn = Boolean(isLoogedIn);
+// // instead of Boolean we can have Number, String
+// console.log(boolenaLoggedIn);
 
-// 1 => true, = -> false
-// "" -> false
-// "hitesth" -> true
+// // 1 => true, = -> false
+// // "" -> false
+// // "hitesth" -> true
 
 
+
+// *******************************Operations****************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(value);
+// console.log(negValue);
+
+console.log(+true);  //output is 1
+
+console.log(+""); //output is 0 
+
+
+// prefix & postfix
 
