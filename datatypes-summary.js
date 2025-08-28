@@ -22,3 +22,33 @@ const id = Symbol('123');
 const aId = Symbol('123');
 
 console.log(id === aId);
+
+
+console.log("==========");
+const bigata = 123456898765431234567898765n;
+
+console.log(typeof(bigata));
+
+
+console.log("========Arrays=========");
+const info = ["nidhi", "singh"];
+console.log(info);
+
+console.log("=====objects======");
+let student = {
+    first_name: "nidhi",
+    last_name: "singh"
+}
+console.log(student);
+
+console.log("======functions =======");
+const myFun = function() {
+    console.log("nid");
+}
+myFun();
+const fun2  = () => {
+    console.log("fu2");
+}
+fun2();
+
+console.log(typeof(fun2));
