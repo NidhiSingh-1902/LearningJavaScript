@@ -36,3 +36,14 @@ console.log(+""); //output is 0
 
 // prefix & postfix
 
+
+// concept regarding the string to number and number to string 
+/*
+1. 3+"3" --> 33
+2. "3"+2 --> 32
+3. 1+2+"3" --> 33 
+4. 1+"2"+3 --> 123
+5. "1"+"2"+3 --> 123
+6. "1"+2+3 --> 123
+*/
+console.log("1"+2+3);
