@@ -81,3 +81,33 @@ console.log(typeof(fun2));
 5.RegExp: Represents regular expressions for pattern matching.
 
 */
+
+
+
+// ===========Memory========== //
+
+/*
+Stack (primitive) --> copy 
+Heap(non-primitive) --> reference
+*/
+
+console.log("Call by Value:");
+let stackName = "nidhi";
+let stackName2 = "nidhi2";
+
+stackName2 = "nnn";
+
+console.log(`StackName : ${stackName}`);
+console.log(`StackName2 : ${stackName2}`);
+
+
+console.log("Call by Reference : ");
+let heapObject = {
+    objName : "Object 1 name"
+}
+
+let heapObject2 = heapObject;
+heapObject2.objName = "new";
+
+console.log(`HeapObject1 : ${heapObject.objName}`);
+console.log(`HeapObject2 : ${heapObject2.objName}`);
