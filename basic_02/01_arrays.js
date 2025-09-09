@@ -40,7 +40,7 @@ console.log(`Array after Splicing ${array}`);
 Slice and Splice:
 
 
-Slice: takes the part from the array, abd do not updates the orignial array 
+Slice: takes the part from the array, and do not updates the orignial array 
 
 Splice: remove the element and updates the original array.
 */
