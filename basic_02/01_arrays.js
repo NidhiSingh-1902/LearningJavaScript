@@ -35,3 +35,13 @@ console.log(`Example of Slice : ${array.slice(1,3)}`);
 console.log(`Array after Slicing : ${array}`);
 console.log(`Example of Splice : ${array.splice(1,3)}`);
 console.log(`Array after Splicing ${array}`);
+
+/*
+Slice and Splice:
+
+
+Slice: takes the part from the array, abd do not updates the orignial array 
+
+Splice: remove the element and updates the original array.
+*/
+

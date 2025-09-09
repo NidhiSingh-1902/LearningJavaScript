@@ -76,9 +76,9 @@ console.log(tinderUser1);
 
 // datatype of tinderUser : is a array
 
-console.log(Object.keys(tinderUser1));
+// console.log(Object.keys(tinderUser1));
 
-console.log(Object.values(tinderUser1));
+// console.log(Object.values(tinderUser1));
 
 // each and every entry of key-pair value is stored in a form of Arrays.
 
@@ -90,5 +90,17 @@ console.log(tinderUser1.hasOwnProperty('isLoggedIn'));
 
 
 // eneumarable: means able to repeat or looping.
-console.log(tinderUser1.hasOwnProperty('Odoo'));
+// console.log(tinderUser1.hasOwnProperty('Odoo'));
 
+
+
+// de-structuring of an object
+console.log(`De-structuring of an Object.`);
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "Dummy"
+}
+
+// example: how to desructor 
+console.log(course.courseInstructor);
