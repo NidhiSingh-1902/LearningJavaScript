@@ -12,6 +12,8 @@ const dc_heros = ["superman", "flash", "batman"];
 
 // spread operator (...) --> widely used to concat arrays 
 
+// using spread operator we can pass n number of arrays for concatination.
+
 const all_new_heros = [...marvel_heros, ...dc_heros];
 console.log(all_new_heros);
 
@@ -36,6 +38,8 @@ console.log(Array.from("nidhisingh"));
 
 // interesting fact , when we convert the oject to array
 console.log(Array.from({name: "nidhi"}));  //output is empty []
+
+// here we need to specify that wheather we want to create the array from "Key" or "Value".
 
 // create an array with set of elements
 
